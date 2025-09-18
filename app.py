@@ -16,10 +16,10 @@ app.secret_key = 'your_secret_key'
 MODEL_PATH = 'model.pkl'
 DATASET_PATH = 'cyberbullying_dataset_2025.csv'
 USERS_PATH = 'users.csv'
-YOUTUBE_API_KEY = 'AIzaSyCrGEFYNsHAMZhAaRd06VT79BzfVMz3q6c'  
+YOUTUBE_API_KEY = ''  
 
-EMAIL_SENDER = 'anujnaanujna398@gmail.com'
-EMAIL_PASSWORD = 'hgvf mmaz hhpn kfrl'  
+EMAIL_SENDER = 'anujna@gmail.com'
+EMAIL_PASSWORD = ''  
 
 # --- CALM REPLIES ---
 CALM_REPLIES = {
@@ -248,3 +248,4 @@ def logout():
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
+
